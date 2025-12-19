@@ -1,20 +1,77 @@
-.lx-st-hero {
-  background: radial-gradient(700px 260px at 20% 0%, rgba(255, 165, 0, 0.22) 0%, rgba(255, 165, 0, 0) 60%),
-    linear-gradient(135deg, rgba(2, 8, 24, 0.92), rgba(7, 18, 46, 0.92));
-  border: 1px solid rgba(255, 165, 0, 0.18);
-  border-radius: 16px;
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
-  padding: 26px 18px;
+.lx-center {
   text-align: center;
 }
 
-.lx-st-subtitle {
-  margin-top: 10px;
-  opacity: 0.85;
+.sheetui {
+  background: #0f1113;
+  border-radius: 16px;
+  color: #e8eaed;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  overflow: hidden;
+  width: 100%;
 }
 
-.lx-st-title {
-  font-size: 2.1rem;
+.sheetui__brand {
   font-weight: 800;
-  line-height: 1.1;
+}
+
+.sheetui__cell {
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.sheetui__hdr {
+  color: rgba(232, 234, 237, .72);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.sheetui__row {
+  border-bottom: 1px solid rgba(255, 255, 255, .06);
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr .9fr .9fr .8fr;
+  padding: 10px 0;
+}
+
+.sheetui__row--last {
+  border-bottom: 0;
+}
+
+.sheetui__subhead {
+  color: rgba(232, 234, 237, .72);
+  font-weight: 800;
+}
+
+.sheetui__table {
+  padding: 14px;
+}
+
+.sheetui__tag {
+  border-radius: 999px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 6px 10px;
+}
+
+.sheetui__tag--a {
+  background: #00e676;
+  color: #0b0d10;
+}
+
+.sheetui__tag--b {
+  background: #b388ff;
+  color: #0b0d10;
+}
+
+.sheetui__top {
+  align-items: center;
+  background: #121416;
+  border-bottom: 1px solid rgba(255, 255, 255, .10);
+  display: flex;
+  gap: 12px;
+  padding: 12px 14px;
 }
