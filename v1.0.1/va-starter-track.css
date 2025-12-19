@@ -123,10 +123,20 @@
 }
 
 .lx-va-card {
-  background: var(--lx-card);
-  border: 1px solid var(--lx-card-border);
+  background:
+    radial-gradient(
+      700px 260px at 15% 0%,
+      rgba(255, 165, 0, 0.14) 0%,
+      rgba(255, 165, 0, 0) 60%
+    ),
+    linear-gradient(
+      135deg,
+      rgba(2, 8, 24, 0.72) 0%,
+      rgba(7, 18, 46, 0.72) 100%
+    );
+  border: 1px solid rgba(255, 165, 0, 0.22);
   border-radius: 12px;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
   padding: 18px;
 }
 
